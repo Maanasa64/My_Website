@@ -1,5 +1,8 @@
 # Hello!
 
-I'm Maanasa Prasad, a Math and Computer Science student at UC San Diego with a strong passion for software engineering and automation. I love building tools that streamline workflows and solve real-world problems, whether it's through developing efficient scripts, creating automated systems, or designing user-friendly applications. My projects often focus on reducing manual effort and increasing productivity through thoughtful engineering solutions.
+I'm Maanasa Prasad, a Math and Computer Science student at UC San Diego with a passion for software engineering. I enjoy taking on challenging projects that push me to grow and develop new skills. My experience spans from building automation tools to creating user-friendly applications, all with the goal of solving real-world problems and streamlining workflows.
 
-Explore my [website](https://maanasa64.github.io/My_Website/) to see how I've used technology to automate processes and improve efficiency!
+I specialize in designing efficient scripts and automated systems that reduce manual effort and boost productivity. Whether it's improving processes or building tools from scratch, I’m dedicated to crafting thoughtful engineering solutions that make an impact.
+
+Check out my [website](https://maanasa64.github.io/My_Website/) to explore more about me!
+
