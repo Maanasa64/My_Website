@@ -1,0 +1,95 @@
+<!--Made With Love // Maanasa Prasad-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Maanasa Prasad</title>
+        <link rel="icon" href="pictures/panda3.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="home" id="home">
+            <div class="mp">
+                <span>M</span>
+                <span>P</span>
+                <p>ASPIRING SOFTWARE ENGINEER | AI/ML ENTHUSIAST | PASSIONATE ABOUT DATA SCIENCE</p>
+            </div>
+            <img src="icons/downarrowicon.png" style="height: 5vh; transform: translate(-50%,-50%); bottom: 20%; position: absolute; left: 50%; margin: 0; animation: scrollshi 1s ease-in-out infinite;">
+        </section>
+        <section class="about" style="height: 50vh; position: relative; width: 100vw;" id="about">
+            <h1 class="aboutmehead" style="font-size: 75px; text-align: center; margin: 10px;">ABOUT ME</h1>
+            <div class="paracontainer animate">
+                <p style="font-size: 30px; margin: 10px;" class="animate aboutpara">I am currently pursuing a Bachelor of Science in Math and Computer Science, with a minor in Data Science at UC San Diego. I have a passion for creating innovative solutions using cutting-edge technologies.</p>
+                <p style="font-size: 30px; margin: 10px;" class="animate aboutpara">In my free time, I mentor students, build personal projects, and participate in hackathons!</p>
+                <img src="pictures/panda2.png" style="height: 15vh; position: absolute; top: 50%; left: 80vw; margin: 0; transform: translate(-50%, -50%) rotate(20deg);">
+                <img src="pictures/panda1.png" style="height: 15vh; position: absolute; top: 50%; left: 0; margin: 0; transform: translate(-50%, -50%) rotate(-20deg);">
+            </div>
+        </section>
+        <div class="scroll_container">
+            <div class="sticky_wrap">
+                <div class="horizontal_scroll">
+                    <div class="scroll_contents">
+                        <img src="pictures/IMG-20240628-WA0021.jpg">
+                        <h2 style="font-family: revista; font-size: 80px; position: relative; margin-top: 50vh; margin-left: 5vw;">MORE ABOUT ME?</h2>
+                    </div>
+                    <div class="scroll_contents">
+                        <img src="pictures/IMG-20241009-WA0002.jpg">
+                        <h2 style="font-family: revista; font-size: 80px; position: relative; margin-top: 50vh; margin-left: 5vw;">VIEW MY</h2>
+                    </div>
+                    <div class="scroll_contents" id="resume" style="margin-left: -30vw;">
+                        <img src="pictures/IMG-20241009-WA0004.jpg">
+                        <div style="position: relative; margin-top: 50vh; margin-left: 5vw;">
+                            <a class="resumebtn" href="files/My Resume.pdf" target="_blank">RESUME</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="experiences" id="experiences">
+            <h1 style="font-size: 10vh; text-align: center; margin-bottom: 12vh; padding-top: 2vh;" class="experienceshead">MY EXPERIENCE</h1>
+            <div class="appletata" style="padding: 0%; margin: 0%;">
+                <div class="apple animate">
+                    <h3 style="font-size: 5vh; font-family: revista;">SOFTWARE EGINEERING INTERN</h3><br>
+                    <p class="animate applepara">Apple Inc. | June 2024 - Sept. 2024</p><br>
+                    <p class="animate applepara">Developed a Slack Bot that automated debugging tasks, reducing manual effort for developers by 35 hours weekly.</p>
+                </div>
+                <div class="tata animate">
+                    <h3 style="font-size: 5vh; font-family: revista;">MACHINE LEARNING INTERN</h3><br>
+                    <p class="animate tatapara">Tata Consultancy Services | June 2023 - Aug. 2023</p><br>
+                    <p class="animate tatapara">Built a dynamic machine learning algorithm to generate custom question papers with 90% accuracy for 10th and 12th board exams.</p>
+                </div>
+                <div class="booleanlab animate">
+                    <h3 style="font-size: 5vh; font-family: revista;">STUDENT RESEARCHER</h3><br>
+                    <p class="animate boolpara">Boolean Lab | Febuary 2023 - Present</p><br>
+                    <p class="animate boolpara">Developopment of a PyQt based GUI for annotating cancer cell images, improving usability and assisting reasearchers in image analysis.</p>
+                    <a href="https://github.com/amitashnanda/Medical-Image-Analysis-GUI" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>
+        <div class="sidenav">
+            <div id="menu" class="menu" style="width: 0vw; height: 100vh; background-color: #000; color: white; transition: 1s ease; position: fixed; top: 0; overflow: hidden; white-space: nowrap;">
+                <input type="image" src="icons/closeicon.png" style="height: 5vh; position: absolute; top: 0; margin-top: 2vh; left: 100%; transform: translate(-100%, 0); padding-right: 2vh; z-index: 2;" onclick="closenav()">
+                <input type="image" id="opennavbtn" src="icons/menuicon.png" style="height: 5vh; position: fixed; top: 0; margin-top: 2vh; margin-left: 2vh; z-index: 1;" onclick="opennav()">
+                <div class="navlinks" style="margin-top: 10vh; position: absolute;">
+                    <a href="#home" class="navtext" style="font-size: 5vh; margin-left: 2vh; line-height: 10vh; text-decoration: none;">HOME</a><br>
+                    <a href="#about" class="navtext" style="font-size: 5vh; margin-left: 2vh; line-height: 10vh; text-decoration: none;">ABOUT</a><br>
+                    <a href="#resume" class="navtext" style="font-size: 5vh; margin-left: 2vh; line-height: 10vh; text-decoration: none;">RESUME</a><br>
+                    <a href="#experiences" class="navtext" style="font-size: 5vh; margin-left: 2vh; line-height: 10vh; text-decoration: none;">EXPERIENCE</a><br>
+                    <a href="#contacts" class="navtext" style="font-size: 5vh; margin-left: 2vh; line-height: 10vh; text-decoration: none;">CONTACTS</a>
+                </div>
+                <p style="font-size: 2vh; position: absolute; top: 100%; transform: translate(-100%, -100%); left: 100%; padding: 10px; color: #ffcccb;">Made With <img src="icons/heart.png" style="height: 2vh; margin: 0; transform: translate(-0, 3px);"> | Maanasa Prasad</p>
+            </div>
+        </div>
+        <div style="height: 50vh;" class="contacts" id="contacts">
+            <h1 style="font-size: 10vh; text-align: center; margin-bottom: 5vh; padding-top: 2vh;" class="contactshead">CONTACTS</h1>
+            <div style="display: flex; justify-content: center; gap: 5px;">
+                <a class="contactbtns" href="https://www.linkedin.com/in/maanasa-prasad" target="_blank">LINKEDIN</a><br>
+                <a class="contactbtns" href="mailto:prasadmaanasa82@gmail.com" target="_blank">EMAIL</a><br>
+                <a class="contactbtns" href="https://github.com/maanasa64" target="_blank">GITHUB</a><br>
+            </div>
+            <img src="pictures/panda3.png" style="height: 15vh; position: absolute; margin: 0; transform: translate(-50%, 0); left: 50%; margin-top: 5vh;">
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
